@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LoadShaders.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Notes.md" />
+    <None Include="_dependency\glew\glew32.dll">
+      <Filter>_dependency\glew</Filter>
+    </None>
+    <None Include="_dependency\glew\README.md">
+      <Filter>_dependency\glew</Filter>
+    </None>
+    <None Include="_dependency\glut\glut32.dll">
+      <Filter>_dependency\glut</Filter>
+    </None>
+    <None Include="_dependency\glut\README.md">
+      <Filter>_dependency\glut</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="_dependency">
+      <UniqueIdentifier>{743b1c05-0116-4aa0-9852-8610f8baceac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_dependency\glew">
+      <UniqueIdentifier>{6edf1b08-ceb2-46eb-a17b-978d7bcea3eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="_dependency\glut">
+      <UniqueIdentifier>{f7841e34-5f97-4310-abf9-0afdefa0d76a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="_dependency\glew\eglew.h">
+      <Filter>_dependency\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="_dependency\glew\glew.h">
+      <Filter>_dependency\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="_dependency\glew\glxew.h">
+      <Filter>_dependency\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="_dependency\glew\wglew.h">
+      <Filter>_dependency\glew</Filter>
+    </ClInclude>
+    <ClInclude Include="_dependency\glut\glut.h">
+      <Filter>_dependency\glut</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadShaders.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="_dependency\glew\glew32.lib">
+      <Filter>_dependency\glew</Filter>
+    </Library>
+    <Library Include="_dependency\glew\glew32s.lib">
+      <Filter>_dependency\glew</Filter>
+    </Library>
+    <Library Include="_dependency\glut\glut32.lib">
+      <Filter>_dependency\glut</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
